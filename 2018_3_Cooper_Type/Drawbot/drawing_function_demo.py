@@ -1,4 +1,4 @@
-from random import random
+from random import random, randint
 
 def rgb_to_decimal(n):
     if n < 0:
@@ -9,12 +9,17 @@ def rgb_to_decimal(n):
         return n/256
 
 def draw(x,y,width,height):
-    stroke(0)
-    strokeWidth(3)
-    if random() > 0.5:
+    stroke(random(),random(),random())
+    strokeWidth(9)
+    flip = randint(0,2)
+    if flip == 0:
         line((x,y),(x+width,y+height))
         line((x,y+height/2),(x+width/2,y+height))
         line((x+width/2,y),(x+width,y+height/2))
+    elif flip == 1:
+        line((x+width,y),(x,y+height))
+        line((x+width/2,y),(x,y+height/2))
+        line((x+width,y+height/2),(x+width/2,y+height)) 
     else:
         line((x+width,y),(x,y+height))
         line((x+width/2,y),(x,y+height/2))
@@ -23,11 +28,11 @@ def draw(x,y,width,height):
     
 
 module = 100
-spacing = 10
+spacing = 0
 margin = module + spacing
 page_width = 2000
 page_height = 1000
-pages = 1
+pages = 3
 
 size(page_width,page_height)
 
