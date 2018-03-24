@@ -9,7 +9,7 @@ def rgb_to_decimal(n):
         return n/256
 
 def draw(x,y,width,height):
-    
+    pass
     
 
 module = 50
@@ -17,11 +17,11 @@ spacing = 10
 margin = module + spacing
 page_width = 2000
 page_height = 1000
-
+pages = 1
 
 size(page_width,page_height)
 
-for p in range(10):
+for p in range(pages):
     for x in range(0, width(), margin):
         for y in range(0, height(), margin):
             r = random()
@@ -30,7 +30,7 @@ for p in range(10):
             fill(r,random(),0.5, random())
             oval(x,y,module,module)
             
-    if p != 9:
+    if p != pages - 1:
         newPage(page_width,page_height)
         
 saveImage("~/Desktop/image.pdf")
