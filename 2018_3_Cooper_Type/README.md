@@ -42,3 +42,4 @@ We’ll be exploring both the now defunct [RoboFab](http://robofab.com) and the 
 * [RoboDocs](http://www.robodocs.info)(a central source for documentation for many type coding libraries)
 * [RoboFab Docs](http://www.robodocs.info/roboFabDocs/source/index.html)
 * [FontParts Docs](http://fontparts.readthedocs.io/en/latest/)
+* [Miniscripts](http://ninastoessinger.com/posted/miniscripts.zip)
