@@ -1,0 +1,5 @@
+fonts = AllFonts()
+font = CurrentFont()
+copied = font.kerning.copy()
+fonts[2].kerning.update(copied)
+print(fonts[2])
