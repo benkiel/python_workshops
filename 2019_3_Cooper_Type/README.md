@@ -13,6 +13,7 @@ The goal for the weekend is to get you well set in being able to use Python as p
 Their are several great sources for online tutorials on Python (and Googling your problem + Python usually turns up the answer on [StackOverflow](http://stackoverflow.com)). Here is a starting point:
 
 * [Official Python Documentation](https://www.python.org/doc/)
+* [Python for Designers](http://pythonfordesigners.com)
 * [Learnpython.org](https://www.learnpython.org)
 * [Codecademy](https://www.codecademy.com/learn/learn-python)
 * [Python Tutorial](https://docs.python.org/3/tutorial/)
