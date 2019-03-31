@@ -38,9 +38,8 @@ Some folks doing fun things with Drawbot:
 
 ### RoboFont
 
-We’ll be exploring both the now defunct [RoboFab](http://robofab.com) and the new [FontParts](https://github.com/robofab-developers/fontParts) in RoboFont. Documenation is:
+We’ll be exploring [FontParts](https://github.com/robofab-developers/fontParts) in RoboFont. Documenation is:
 
 * [RoboDocs](http://www.robodocs.info)(a central source for documentation for many type coding libraries)
-* [RoboFab Docs](http://www.robodocs.info/roboFabDocs/source/index.html)
 * [FontParts Docs](http://fontparts.readthedocs.io/en/latest/)
 * [Miniscripts](http://ninastoessinger.com/posted/miniscripts.zip)
